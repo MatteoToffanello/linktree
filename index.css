@@ -1,0 +1,45 @@
+body{
+    box-sizing: border-box;
+    padding: 10rem 0px;
+    margin: 0px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+}
+
+
+body *{
+    text-align: center;
+    margin: 2rem auto;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+div{
+    border: solid 1px grey;
+    width: 25%;
+    padding: 1.5rem 0px;
+    transition: .3s ease-in-out;
+    transform: rotate(0deg);
+}
+
+div:hover:not(#border){
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    transform: rotate(1deg);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#krm_desktop_extension, #border{
+    display: none;
+}
+
+
+
